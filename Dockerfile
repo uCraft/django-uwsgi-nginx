@@ -27,8 +27,7 @@ RUN apt-get update && \
 	python3-setuptools \
 	python3-pip \
 	nginx \
-	supervisor \
-	sqlite3 && \
+	supervisor && \
 	pip3 install -U pip setuptools && \
    rm -rf /var/lib/apt/lists/*
 
